@@ -16,6 +16,7 @@
         "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
+        "fzaninotto/faker": "^1.4",
         "facade/ignition": "^2.0",
         "phpunit/phpunit": "^8.5"
     },

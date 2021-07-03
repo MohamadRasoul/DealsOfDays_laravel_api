@@ -3,9 +3,8 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\Category;
-use Faker\Generator as Faker;
 
-$factory->define(Category::class, function (Faker $faker) {
+$factory->define(Category::class, function () {
     $data = [
         ['Food' , '#FFEB3B' ,'2131165346'],
         ['Salon' ,'#673AB7' ,'2131165352'],

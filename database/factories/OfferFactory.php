@@ -7,7 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(Offer::class, function (Faker $faker) {
     return [
-        'offer'           =>   $faker->text($maxNbChars = 75),
+        'name'           =>   $faker->text($maxNbChars = 75),
         'descreption'     =>   $faker->text($maxNbChars = 200),
         'offerPrecentage' =>   $faker->numberBetween($min = 10, $max = 80),
         'oldPrice'        =>   $faker->numberBetween($min = 0, $max = 100000),
